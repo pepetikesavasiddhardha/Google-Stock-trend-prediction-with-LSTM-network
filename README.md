@@ -1,1 +1,1 @@
-# Google-Stock-trend-prediction-with-LSTM-network
+ Google-Stock-trend-prediction-with-LSTM-network
