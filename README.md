@@ -1,4 +1,4 @@
-The information about Google stock prices is given during the span of 4 years between 2012-2016 in the form of csv file and in test dataset Google stock prices data of 2017 january month is given
+* The information about Google stock prices is given during the span of 4 years between 2012-2016 in the form of csv file and in test dataset Google stock prices data of 2017 january month is given
 Now after loading train data csv file using 'pd.read_csv' of pandas, we will do Normalization on all the columns except the date column as normalization is best to use when output layer has sigmoid activation
 Now we will initialize empty lists X_train,y_train and in case of X_train we will append 1st element as a list of previous 60 previous closing prices and 2nd element is another list of 60 previous closing day prices like this we will do till the last example in training set and we will get X_train as list with shape [1198,60]
 We performed above step as in this RNN we assume closing price of stock on a day will depend on closing prices of past 60days so thats why we created X_train in that way
